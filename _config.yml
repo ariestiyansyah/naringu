@@ -9,10 +9,10 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               oonlab
-tagline:             'Lab of ariestiyansyah'
-description:         'oonlab is crafted with <3 by ariestiyansyah, life is not about code.'
-url:                 http://oonlab.com
+title:               Naringu
+tagline:             'A Hacker like jekyll theme'
+description:         'oonlab is crafted with <3 by ariestiyansyah.'
+url:                 http://naringu.oonlab.com
 baseurl:             /
 paginate:            7
 
