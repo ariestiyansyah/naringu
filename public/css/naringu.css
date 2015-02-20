@@ -525,7 +525,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 /* Blog post or page title */
@@ -542,7 +542,7 @@ a.sidebar-nav-item:focus {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -1.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
