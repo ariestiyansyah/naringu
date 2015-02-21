@@ -29,5 +29,7 @@ version:             2.0
 github:				http://github.com/ariestiyansyah
 twitter:			http://twitter.com/ariestiyansyah
 
-
-
+# Theme Author (Please don't edit this line cause of MIT LICENSE rules)
+theme:
+creator:			Rizky Ariestiyansyah
+codename:			Naringu

@@ -3,11 +3,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>{{ site.name | xml_escape }} - Mozilla</title>
-		<description>Posts categorized as 'Mozilla'</description>
+		<title>{{ site.name | xml_escape }} - Naringu</title>
+		<description>Posts categorized as 'Naringu'</description>
 		<link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}/category/mozilla/feed" rel="self" type="application/rss+xml" />
-		{% for post in site.categories.mozilla limit:10 %}
+        <atom:link href="{{ site.url }}feed.category.xml" rel="self" type="application/rss+xml" />
+		{% for post in site.categories.naringu limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				{% if post.excerpt %}
