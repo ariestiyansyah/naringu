@@ -17,7 +17,8 @@ Naringu is dark jekyll theme that provide fully furnished jekyll setup, come wit
   - [Contact Form](#contact-form)
   - [Comments](#comments)
 - [Development](#development)
-- [Author](#author)
+  - [Author](#author)
+  - [Contributors](#contributors)
 - [License](#license)
 
 
@@ -71,10 +72,16 @@ Naringu come with two branches :.
 - `master` for active development. 
 - `gh-pages` for preview of Naringu
 
+### Author
+
 **Rizky Ariestiyansyah**
 - <https://github.com/ariestiyansyah>
 - <https://twitter.com/ariestiyansyah>
 
+### Contributors
+
+**Gildásio Júnior** - *a.k.a. @gjuniioor*
+- https://github.com/gjuniioor
 
 ## License
 
