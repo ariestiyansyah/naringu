@@ -15,6 +15,7 @@ Naringu is dark jekyll theme that provide fully furnished jekyll setup, come wit
   - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
   - [Contact Form](#contact-form)
+  - [Comments](#comments)
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
@@ -56,6 +57,12 @@ Go a head `contact/index.html` just change the email in the code
 ```html
 <form action="http://formspree.io/youremail@yourdomain.com" role="form" method="POST">
 ```
+
+### Comments
+
+Using [disqus](http://disqus.com/) to enable comments in static site.
+
+Just edit variable `disqus` in `_config.yml` to your disqus link.
 
 ## Development
 
