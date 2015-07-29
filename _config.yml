@@ -9,7 +9,7 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               'Naringu'
+title:               Naringu
 tagline:             'A Hacker like jekyll theme'
 description:         'oonlab is crafted with <3 by ariestiyansyah.'
 url:                 http://naringu.oonlab.com
@@ -18,7 +18,7 @@ paginate:            7
 
 # About/contact
 author:
-  name:              'Rizky Ariestiyansyah'
+  name:              Rizky Ariestiyansyah
   url:               https://twitter.com/ariestiyansyah
   email:             ariestiyansyah.rizky@gmail.com
 
@@ -35,5 +35,3 @@ theme:
   creator:			Rizky Ariestiyansyah
   codename:			Naringu
   link:             https://github.com/ariestiyansyah/naringu
-
-baseurl:            https://gjuniioor.github.io/naringu/
