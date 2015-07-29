@@ -1,5 +1,4 @@
 ---
-id: 8
 title: About
 author: ariestiyansyah
 layout: page
