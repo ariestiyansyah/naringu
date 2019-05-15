@@ -9,11 +9,13 @@ description: "An archive of posts sorted by categories."
 {% assign tags_list = site.categories %}
 {% if tags_list.first[0] == null %}
 {% for tag in tags_list %}
-<li><a href="#{{ tag }}">{{ tag | capitalize }} <span>{{ site.tags[tag].size }}</span></a></li>
+<li><a href="#{{ tag }}">{{ tag | capitalize }}
+<span class="post-title">{{ site.tags[tag].size }}</span></a></li>
 {% endfor %}
 {% else %}
 {% for tag in tags_list %}
-<li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+<li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }}
+<span class="post-title">{{ tag[1].size }}</span></a></li>
 {% endfor %}
 {% endif %}
 {% assign tags_list = nil %}
@@ -25,7 +27,9 @@ description: "An archive of posts sorted by categories."
 {% for post in pages_list %}
 {% if post.title != null %}
 {% if group == null or group == post.group %}
-<li><a href="{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %d, %Y" }}</time></a></li>
+<li><a href="{{ post.url }}">{{ post.title }}<span class="post-title">
+<time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+{{ post.date | date: "%b %d, %Y" }}</time></a></li>
 {% endif %}
 {% endif %}
 {% endfor %}
